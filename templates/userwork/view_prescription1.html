@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% extends 'userwork/index_user.html' %}
+{% block content %}
+<div class="card mb-4" >
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">View Prescription</h5>
+
+                    </div>
+                    <div class="card-body">
+                      <form>
+                          {% for i in data %}
+                          <div class="form-group">
+                              <h5>Prescription send by {{i.doctor}}</h5>
+                          </div>
+                        <div class="form-group">
+                          <label class="form-label" for="basic-default-fullname">Date</label>
+                          <input type="text" class="form-control" id="basic-default-fullname" placeholder="{{i.date}}" />
+                        </div>
+
+                        <div class="form-group">
+
+                             <label for="comment">Medicine Details:</label>
+                            <textarea class="form-control" rows="5" id="comment">{{i.medicine_details}}</textarea>
+                        </div>
+<!--                        <button type="submit" class="btn btn-primary">Send</button>-->
+                      </form>
+                    </div>
+     {% endfor %}
+                  </div>
+                </div>
+{% endblock %}
+

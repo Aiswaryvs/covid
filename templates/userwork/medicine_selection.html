@@ -1,0 +1,80 @@
+{% extends 'userwork/index_user.html' %}
+{% load crispy_forms_filters %}
+{% block content %}
+<div class="card" style="width: 18rem;">
+  {% for i in data %}
+  <div class="card-body">
+  <img class="card-img-top" src="{{i.photo.url}}" alt="Card image cap">
+    <h5 class="card-title"><span id="demo1">{{i.medicine_name}}</span></h5>
+    <h6 class="card-title"><span id="demo2">{{i.number_of_tablets}} tablets</span></h6>
+    <h6 class="card-title">₹{{i.price}}/-</h6>
+<!--    <h6 class="card-title">Uploaded by {{i.user}}</h6>-->
+    <button class="btn btn-primary" onclick="myfunction({{i.id}})">Buy Now</button>
+    <button onclick="test({{i.id}})">Hello</button>
+  </div>
+
+
+  {% endfor %}
+</div>
+<script>
+
+function test(hi){
+var med1=document.getElementById('demo1').innerHTML
+let tab =document.getElementById('demo2').innerHTML;
+console.log(med1, tab)
+
+const med = {
+    tab:tab,
+    medicine:med1
+}
+
+localStorage.setItem("med",JSON.stringify(med))
+
+}
+
+  function myfunction(id){
+  console.log("hello")
+  let user=localStorage.getItem("user")
+  let phone=localStorage.getItem("phone")
+  let address=localStorage.getItem("address")
+  let tab =document.getElementById('demo2').innerHTML;
+  var med1=document.getElementById('demo1');
+  med1.setAttribute("id",id);
+  let med2=document.getElementById(id).innerHTML;
+  let details={
+  user:user,
+  phone:phone,
+  address:address,
+  tab:tab,
+  medicine:med2
+  }
+ localStorage.setItem("view",true)
+let details1=JSON.parse(localStorage.getItem("order"));
+  details1.push(details)
+  localStorage.setItem("order",JSON.stringify(details1));
+
+
+
+
+  //console.log(id)
+ //var med1=document.getElementById('demo1');
+  //med1.setAttribute("id",id);
+  //let med2=document.getElementById(id).innerHTML;
+  //med2=[med2]
+  //let med=[]
+  //med.push(med2)
+  //console.log(med)
+
+
+  //let tab =document.getElementById('demo2').innerHTML;
+    //localStorage.setItem('order',true)
+    //let stored=JSON.parse(localStorage.getItem("medicine"))
+    //med.push(stored)
+    //localStorage.setItem('medicine',JSON.stringify(med))
+   // localStorage.setItem('tablet',tab)
+
+  alert("Order Placed")
+  }
+</script>
+{% endblock %}
+

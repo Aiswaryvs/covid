@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% extends 'pharmacywork/index_pharmacy.html' %}
+{% block content %}
+<div class="card">
+                <h5 class="card-header">View Stock</h5>
+                <div class="table-responsive text-nowrap">
+                  <table class="table">
+                    <thead>
+                      <tr>
+
+                        <th>medicine_name</th>
+                        <th>batch_no</th>
+                        <th>number_of_tablets</th>
+                        <th>arrival_date</th>
+                        <th>expiry_date</th>
+                        <th>price</th>
+                        <th>medicine_photo</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+
+                      </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                     {% for i in data %}
+                      <tr>
+
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>{{i.medicine_name}}</strong></td>
+                        <td>{{i.batch_no}}</td>
+                        <td>{{i.number_of_tablets}}</td>
+                        <td>{{i.arrival_date}}</td>
+                        <td>{{i.expiry_date}}</td>
+                        <td>{{i.price}}</td>
+                        <td><img src="{{i.photo.url}}" width="90px" height="90px"></td>
+                        <td><a href="{% url 'update_stock' i.id %}"><button type="submit" class="btn btn-info" >Update</button></a></td>
+                        <td><a href="{% url 'remove_stock' i.id %}"><button type="submit" class="btn btn-info" >Delete</button></a></td>
+                      </tr>
+                     {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+{% endblock %}

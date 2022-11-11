@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% extends 'pharmacywork/index_pharmacy.html' %}
+{% block content %}
+<div class="card">
+    <h5 class="card-header">View Order</h5>
+
+<br>
+
+    <center><h3 id="demo2"></h3></center>
+    <style>
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        th, td{
+            padding: 10px 20px;
+            border: 1px solid #000;
+        }
+    </style>
+
+    <script >
+    let data=localStorage.getItem('view')
+    console.log(data)
+
+
+ let userData = JSON.parse(localStorage.getItem('userData'))
+
+console.log(userData)
+
+    if(data==="true"){
+
+
+
+
+
+
+
+
+    document.getElementById('demo2').innerHTML+= userData.map(data =>`
+     <table>
+     <thead>
+     <tr>
+     <th>user_name</th>
+     <th>address</th>
+     <th>phone</th>
+     <th>med_Name</th>
+     <th>no of tablets</th>
+     <th>order status</th>
+     </tr>
+     </thead>
+     <tbody>
+     <td>${data.user}</td>
+     <td>${data.address}</td>
+     <td>${data.phone}</td>
+     <td>${data.med1}</td>
+      <td>${data.tab}</td>
+
+     <td>order Success</td>
+     </tbody>
+     </table>`
+     )
+    }
+</script>
+
+</div>
+</div>
+
+
+{% endblock %}

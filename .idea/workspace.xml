@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37c9a6ad-f064-4ece-bf0b-b2a641702d53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cpapp/migrations/0002_alter_feedback_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpapp/migrations/0003_alter_feedback_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/doctorwork/complaint_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/doctorwork/reply_complaint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/userwork/complaint_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/userwork/complaint_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/propython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/propython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cpapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpapp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/cpapp/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cpapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cpapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cpapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpdetect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cpdetect/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/018_-_Copy_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_1KpxwzF.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_40M7nRf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_BZW0PNY.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_CbIBJDa.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_CsNw7t9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_KcJWJ1C.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_XpwLXib.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_bj1Ein7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_edmeCy5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_grOf44F.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_pPzYuX0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_-_Copy_v295Gxc.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_0Bh7sFy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_2_aShpsBq.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_-_Copy_2_zTkLoEi.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_1deDanR.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_7dyORBk.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_8ONNBWS.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_Bs2nEiE.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_DLXAEKr.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_FbFMeuX.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_L3lZrLg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_UwGnAYz.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_b8Y6BHf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_b9ctRjQ.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_gsAt1bF.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_ha6isRe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_iyYLxOx.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/01_vWIuWTt.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/02.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/02_-_Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/02_-_Copy_-_Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/02_-_Copy_Mug1PyI.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_FfHxCRl.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_GEXYrje.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_PJGBQij.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_RiyUtoi.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_VSA95b0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_Yf7UlaU.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_YgfYEdR.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_g7MAX8c.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_gOTI3xy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/03_-_Copy_-_Copy_oeygVEf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_5xFriwR.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_C1R6kay.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_FkYOkII.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_IKuCfrb.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_PyUypTd.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_TDFSKpL.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_UJpuOfs.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_YfTCIp2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_ZO4AYMO.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_arZMihc.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_bQweBUx.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_fICdHYO.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_fvmzvBO.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/05_-_Copy_-_Copy_jpnCHtj.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/060.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/097.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/COVID-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/demoooo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/demoooo_7Zoixc7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal4_KsuG3IP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal4_Ne9rv3j.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal4_PVFSwAY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal4_Ry0ua8M.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal4_br8bm98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/normal4_tJgdxEY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/xray.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/02_-_Copy_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/03_-_Copy_-_Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_0O8zSVf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_4WYlN68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_TTZzDbP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_VJ4KAho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_Z7hu4UV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_lcpRjkW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_leOfyTc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_mBCgIns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_nydx2ue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_qFTMdoY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/1_y1W465e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/2_I4iafXq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/3_sfwxMRj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/PXL_20220911_092556635_Original.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/appoinment.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/demoooo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download_1WVEldx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download_E7wOukC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download_TYk72wU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download_YuiBqMX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download_iWgzRvx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download_nZ9j6o4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download_nlclQYw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/download_tIzQKoj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/normal4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pic_med/promo-video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/01_-_Copy_-_Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/01_-_Copy_-_Copy_KVt9uU1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/01_-_Copy_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/02_-_Copy_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_6Xql5lm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_85j2HQD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_F7kAruq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_INwsDtP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_L3wolzC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_OTn45cG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_QOsRPqH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_Rh3NtBV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_S9Um8Ha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_dMrdP3C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_f2UxIjN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_gN9cvPO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_gu3SVpV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_hZzojAP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_i75dKFi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_j7b7Srz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_kNW9A6H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_lJAQ8Ez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_mz40eiW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_nBHxWqq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1_tuhPHMg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/4_7wD4NpU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/5_4RfiRpE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/5_8Gpw8gc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/5_8MDA2d7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/5_MmEC4ib.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/5_VITFRa3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/5_YB43IsI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/5_t2D0AIV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/6_7yK2NDv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/6_8P5fIQs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/6_9O8Iy6Y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/6_ITKVHxl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/6_XvdJuqj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/6_YTjIo2Y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/6_okBBJ4b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/7_CrVSvLJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/7_D2ZF1Xn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/7_K05MBtX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/7_TuUOquz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/7_WZoKkkb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/IMG_0221.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/IMG_0221_ElVZXES.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/IMG_0221_epwZAc4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/IMG_1800.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/PXL_20220911_092556635_Original.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/PXL_20220911_092556635_Original_Z7QPa8n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/SREENIVASAN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/Screenshot_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/Screenshot_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/Screenshot_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/Screenshot_4_OjPNkjY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/Screenshot_71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face1_WglHHxu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face2_Pph13oD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face2_WwQUZSe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/face8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_0Zcn41j.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_21L8yu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_4Z8Nm2t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_4jrGsse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_7PXJEI8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_831sd70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_BLAQlOc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_DJIUkZi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_Gu78bSU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_GzOhwsI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_HasSnzM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_JITTmx1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_JoBnXw8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_QCY9uQQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_QZy3r91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_QjD76Hs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_TUGQrFn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_a8F25f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_mi1fzX9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_qijqDCT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/promo-video_rXXwHvk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/adminwork/index_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminwork/index_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctorwork/index_doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctorwork/index_doctor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/userwork/index_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userwork/index_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/userwork/medicine_selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userwork/medicine_selection.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IlKWfB68WU0tfVmdjFMvsllsE6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37c9a6ad-f064-4ece-bf0b-b2a641702d53" name="Changes" comment="" />
+      <created>1670750762556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670750762556</updated>
+    </task>
+    <servers />
+  </component>
+</project>

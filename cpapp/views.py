@@ -8,7 +8,7 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 from cpapp.forms import LoginForm, PatientRegister, DoctorRegister, PharmacyRegister, Prescription, Scheduling, \
-    Prescriptionform, Stock, ChatWithDoctor, chatform, selectmedicine, Billing, upload_form, Send_Result,ChatForm , CHATForm
+    Prescriptionform, Stock, ChatWithDoctor, chatform, selectmedicine, Billing, upload_form, Send_Result,ChatForm , CHATForm , FeedbackForm
 from cpapp.models import PatientLogin, DoctorLogin, PharmacyLogin, DoctorSchedule, AddStock, DocChat, Bill, upload_img, \
     Login
 from cpapp.prediction import model_predict
@@ -668,3 +668,39 @@ def reply_chat(request, id):
         messages.info(request, 'Reply send for chat')
         return redirect('chat_doctor')
     return render(request, 'doctorwork/reply_chat.html', {'feedback': f})
+
+
+
+def Feedback_add_user(request):
+    form = FeedbackForm()
+    u = request.user
+    if request.method == 'POST':
+        form = FeedbackForm(request.POST)
+        if form.is_valid():
+            obj = form.save(commit=False)
+            obj.user = u
+
+            obj.save()
+            messages.info(request, 'Feedback added Successfully')
+            return redirect('Feedback_view_user')
+    return render(request, 'userwork/complaint_add.html', {'form': form})
+
+
+def Feedback_view_user(request):
+    f = Feedback.objects.filter(user=request.user)
+    return render(request, 'userwork/complaint_view.html', {'feedback': f})
+
+def Feedback_admin(request):
+
+    feed = Feedback.objects.all()
+    return render(request, 'doctorwork/complaint_view.html', {'feed': feed})
+
+def reply_Feedback(request, id):
+    f = Feedback.objects.get(id=id)
+    if request.method == 'POST':
+        r = request.POST.get('reply')
+        f.reply = r
+        f.save()
+        messages.info(request, 'Reply send for complaint')
+        return redirect('Feedback_admin')
+    return render(request, 'doctorwork/reply_complaint.html', {'feedback': f})

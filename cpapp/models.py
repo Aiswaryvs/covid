@@ -146,3 +146,14 @@ class Chat_add(models.Model):
 
     def __str__(self):
         return self.subject
+
+class Feedback(models.Model):
+    user = models.ForeignKey(Login, on_delete=models.CASCADE,null=True,blank=True)
+
+    subject = models.CharField(max_length=200)
+    feedback = models.TextField()
+    date = models.DateField()
+    reply = models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return self.user

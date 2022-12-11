@@ -1,0 +1,43 @@
+{% extends 'doctorwork/index_doctor.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Feedback View</h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                      <tr>
+                          <th>SI No</th>
+                          <th>Name</th>
+                          <th>Subject</th>
+                          <th>Chat</th>
+                          <th>Date</th>
+                          <th>Reply</th>
+                      </tr>
+                      </thead>
+                        <tbody>
+                        {% for i in feed %}
+                        <tr>
+                            <td>{{forloop.counter}}</td>
+                            <td>{{i.user}}</td>
+                            <td>{{i.subject}}</td>
+                            <td>{{i.feedback}}</td>
+                            <td>{{i.date}}</td>
+                            <td>
+                                {% if i.reply == None %}
+                                <a href="{% url 'reply_Feedback' i.id %}">Reply Now</a>
+                                {% else %}
+                                {{i.reply}}
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+</div>
+{% endblock %}

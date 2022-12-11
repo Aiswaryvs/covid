@@ -59,6 +59,11 @@ urlpatterns=[
     path('chat_doctor', views.chat_doctor, name="chat_doctor"),
     path('reply_chat<int:id>/', views.reply_chat, name="reply_chat"),
 
+    path('Feedback_add_user', views.Feedback_add_user, name="Feedback_add_user"),
+    path('Feedback_view_user', views.Feedback_view_user, name="Feedback_view_user"),
+    path('Feedback_admin', views.Feedback_admin, name="Feedback_admin"),
+    path('reply_Feedback/<int:id>/', views.reply_Feedback, name="reply_Feedback"),
+
 
 
 

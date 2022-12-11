@@ -9,8 +9,9 @@
     <h6 class="card-title"><span id="demo2">{{i.number_of_tablets}} tablets</span></h6>
     <h6 class="card-title">₹{{i.price}}/-</h6>
 <!--    <h6 class="card-title">Uploaded by {{i.user}}</h6>-->
-    <button class="btn btn-primary" onclick="myfunction({{i.id}})">Buy Now</button>
-    <button onclick="test({{i.id}})">Hello</button>
+        
+    <button class="btn btn-primary" onclick="myfunction(id)">Buy Now</button>
+    <!-- <button onclick="test({{i.id}})">Hello</button> -->
   </div>
 
 
@@ -19,7 +20,7 @@
 <script>
 
 function test(hi){
-var med1=document.getElementById('demo1').innerHTML
+var med1=document.getElementById('demo1').innerHTML;
 let tab =document.getElementById('demo2').innerHTML;
 console.log(med1, tab)
 
@@ -29,7 +30,7 @@ const med = {
 }
 
 localStorage.setItem("med",JSON.stringify(med))
-
+console.log(med);
 }
 
   function myfunction(id){
@@ -39,8 +40,12 @@ localStorage.setItem("med",JSON.stringify(med))
   let address=localStorage.getItem("address")
   let tab =document.getElementById('demo2').innerHTML;
   var med1=document.getElementById('demo1');
-  med1.setAttribute("id",id);
+  console.log(med1);
+  console.log(tab);
+  console.log(address);
+  // med1.setAttribute("id",id);
   let med2=document.getElementById(id).innerHTML;
+  console.log(med2);
   let details={
   user:user,
   phone:phone,
@@ -49,11 +54,11 @@ localStorage.setItem("med",JSON.stringify(med))
   medicine:med2
   }
  localStorage.setItem("view",true)
-let details1=JSON.parse(localStorage.getItem("order"));
+ let details1=JSON.parse(localStorage.getItem("order"));
   details1.push(details)
   localStorage.setItem("order",JSON.stringify(details1));
-
-
+  alert("Order Placed")
+}
 
 
   //console.log(id)
@@ -73,8 +78,7 @@ let details1=JSON.parse(localStorage.getItem("order"));
     //localStorage.setItem('medicine',JSON.stringify(med))
    // localStorage.setItem('tablet',tab)
 
-  alert("Order Placed")
-  }
+ 
 </script>
 {% endblock %}
 

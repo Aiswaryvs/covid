@@ -6,7 +6,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
 
 from cpapp.models import PatientLogin, Login, DoctorLogin, PharmacyLogin, Prescription, DoctorSchedule, AddStock, \
-    DocChat, MedicineSelect, Bill, upload_img, Sendtest_result ,Chat , Chat_add
+    DocChat, MedicineSelect, Bill, upload_img, Sendtest_result ,Chat , Chat_add , Feedback
 
 
 class LoginForm(UserCreationForm):
@@ -117,3 +117,10 @@ class CHATForm(forms.ModelForm):
     class Meta:
         model = Chat_add
         fields = ('doctor','subject', 'Enquiry', 'date')
+
+
+class FeedbackForm(forms.ModelForm):
+    date = forms.DateField(widget=DateInput)
+    class Meta:
+        model = Feedback
+        fields = ('user','subject', 'feedback', 'date')
